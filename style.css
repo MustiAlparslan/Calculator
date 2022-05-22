@@ -1,4 +1,104 @@
 *{
     margin: 0;
     padding: 0;
+    color: #fff;
+    font-size: 26px;
+    font-weight: 800;
+    box-sizing: border-box;
+    outline: 0;
+    border: 0;
+}
+
+main{
+    width: 350px;
+    height: 485px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-top-left-radius: 25px;
+    background-color: #383838;
+    box-shadow: 0 2px 6px 6px rgba(0, 0, 0, 0.700);
+    
+}
+.total{
+    width: 100%;
+    height: 73px;
+    text-align: right;
+    padding: 8px;
+    font-size: 50px;
+}
+.numbers{
+    background-color: #3f3e3e;
+    width: 100%;
+    padding: 8px;
+    height: 50px;
+    text-align: right;
+}
+#output{
+    width: 100%;
+    height: 123px;
+}
+#btnNumbers{
+    background-color: #4A4857;
+    height: 70px;
+    width: 86px;
+    text-align: center;
+
+}
+#btnNumbers:hover{
+    background-color: #4a485788;
+    cursor: pointer;
+}
+
+#btnOpts{
+    height: 70px;
+    width: 86px;
+    text-align: center;
+
+}
+
+.colorOpt{
+    background-color: #5F6A72;
+}
+.colorOpt:hover{
+    background-color: #5f6a72a6;
+    cursor: pointer;
+
+}
+
+
+.textCenter{
+    text-align: center;
+}
+
+
+#clear{
+    background-color: #26A0CD;
+    height: 70px;
+    font-size: 35px;
+
+}
+#clear:hover{
+    background-color: #26a0cd86;
+    cursor: pointer;
+}
+
+#calculate{
+    background-color: #E2725D;
+    height: 70px;
+    font-size: 35px;
+}
+#calculate:hover{
+    background-color: #e2715dab;
+    cursor: pointer;
+}
+
+.dot{
+    background-color: #4A4857;
+}
+.dot:hover{
+    background-color: #4a485788;
+    cursor: pointer;
+
 }
